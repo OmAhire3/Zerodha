@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {BrowserRouter , Routes , Route, Router} from 'react-router-dom';
+import {BrowserRouter , Routes , Route} from 'react-router-dom';
 import HomePage from './Landing_page/home/HomePage';
 import Signup from './Landing_page/signup/Signup.js';
 import AboutPage from "./Landing_page/about/AboutPage.js";
