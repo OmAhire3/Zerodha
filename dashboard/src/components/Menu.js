@@ -86,7 +86,7 @@ const Menu = () => {
           </li>     
         </ul>
         <hr />
-        <button type="button" class="logout btn btn-dark" style={{background:"#fc3c3c",fontWeight:"20px"}} onClick={handleLogout}>LogOut</button>  
+        <button type="button" className="logout btn btn-dark" style={{background:"#fc3c3c",fontWeight:"20px"}} onClick={handleLogout}>LogOut</button>  
       </div>  
     </div>
   );
