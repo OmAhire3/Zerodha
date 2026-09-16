@@ -138,18 +138,18 @@ function Footer() {
                    </p>
                    <hr></hr>
                    <div className='row' style={{display:"inline", fontSize:"0.3cm", marginLeft:"6cm" }}>
-                        <a   href=''>NSE</a>
-                        <a   href=''>BSE</a>
-                        <a   href=''>MCX</a>     
-                        <a   href=''>MSEI</a>
-                        <a   href=''> Terms & conditions</a>
-                        <a   href=''> Policies & procedures</a>
-                        <a   href=''>Privacy policy</a>
-                        <a   href=''> Disclosure </a>
-                        <a   href=''> For investor's attention</a>
-                        <a   href=''> Investor charter </a>
-                        <a   href=''> Sitemap </a>
-                   </div>
+                        <a href="https://www.nseindia.com">NSE</a>
+                        <a href="https://www.bseindia.com">BSE</a>
+                        <a href="https://www.mcxindia.com">MCX</a>
+                        <a href="https://www.msei.in">MSEI</a>
+                        <a href="/terms">Terms & conditions</a>
+                        <a href="/policies">Policies & procedures</a>
+                        <a href="/privacy">Privacy policy</a>
+                        <a href="/disclosure">Disclosure</a>
+                        <a href="/investor-attention">For investor's attention</a>
+                        <a href="/investor-charter">Investor charter</a>
+                        <a href="/sitemap">Sitemap</a>
+                    </div>
             </div>
         </div>
      );
