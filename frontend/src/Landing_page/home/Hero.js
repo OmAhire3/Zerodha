@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Hero() {
     return (
-        <div className='container p-3 p-md-5 mt-4 mt-md-5'>
-            <div className='row text-center mt-3 mt-md-5'>
-                
+        <div className='container p-0 p-md-5 mt-5'>
+            <div className='row text-center mt-5 mt-md-5'>
+
                 <img
                     src='media/images/main.svg'
                     alt='Hero'
@@ -14,7 +14,7 @@ function Hero() {
                         width: '100%',
                         maxWidth: '800px',
                         height: 'auto',
-                        margin: '0 auto'
+                        margin: '30px auto 0 auto'
                     }}
                 />
 
