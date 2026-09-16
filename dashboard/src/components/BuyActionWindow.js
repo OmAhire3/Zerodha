@@ -10,7 +10,7 @@ const BuyActionWindow = ({ uid }) => {
   let [stockPrice, setStockPrice]=useState(0.0);
 
   const hancleBuyClick=()=>{
-    axios.post("http://localhost:3002/newOrder",{
+    axios.post("https://zerodha-vk1n.onrender.com/newOrder",{
         name:uid,
         qty:stockQuantity,
         price:stockPrice,

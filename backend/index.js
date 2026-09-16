@@ -291,9 +291,10 @@ app.get("/allOrders",async(req,res)=>{
 })
 
 
-app.listen(PORT,()=>{
-    console.log("App sarted!");
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`App started on port ${PORT}`);
 
     mongoose.connect(url)
-    console.log("DB Connected!")
-})
+        .then(() => console.log("DB Connected!"))
+        .catch((err) => console.log("DB Connection Error:", err));
+});
