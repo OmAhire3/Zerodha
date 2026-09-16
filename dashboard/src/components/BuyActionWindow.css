@@ -1,0 +1,148 @@
+
+
+.containerClass {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 420px;
+  background: #fff;
+  border-radius: 10px;
+
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+
+  z-index: 9999;
+  overflow: hidden;
+
+  font-family: Arial, sans-serif;
+}
+
+/* Dark overlay behind popup */
+
+.containerClass::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+
+  transform: translate(-50%, -50%);
+
+  background: rgba(0, 0, 0, 0.35);
+
+  z-index: -1;
+}
+
+/* Order section */
+
+.regular-order {
+  padding: 30px 25px 25px;
+}
+
+.inputs {
+  display: flex;
+  gap: 18px;
+}
+
+/* Input boxes */
+
+fieldset {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 4px 12px 8px;
+  margin: 0;
+}
+
+fieldset:focus-within {
+  border-color: #387ed1;
+}
+
+legend {
+  font-size: 12px;
+  color: #777;
+  padding: 0 5px;
+}
+
+fieldset input {
+  width: 100%;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  padding: 6px 0;
+
+  color: #333;
+  background: transparent;
+}
+
+/* Remove arrows from number input */
+
+fieldset input::-webkit-inner-spin-button,
+fieldset input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+fieldset input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Bottom section */
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 25px;
+
+  background: #fafafa;
+  border-top: 1px solid #eee;
+}
+
+.buttons > span {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Buttons */
+
+.buttons > div {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+
+  padding: 9px 20px;
+
+  font-size: 13px;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.btn-blue {
+  background: #387ed1;
+  color: white;
+}
+
+.btn-blue:hover {
+  background: #2968b5;
+}
+
+.btn-grey {
+  background: #eee;
+  color: #555;
+}
+
+.btn-grey:hover {
+  background: #ddd;
+}
+
+
