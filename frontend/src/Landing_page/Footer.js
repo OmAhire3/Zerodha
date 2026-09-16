@@ -5,9 +5,11 @@ function Footer() {
         <div className='border-top p-5' style={{background:"#FBFBFB"}}>
             <div className='row'>
                 <div className='col-4'>
-                    <img className='fa-brands' src='media/images/logo.svg' style={{ width: "3.4cm",}}/>
+                    <img className='fa-brands' src='media/images/logo.svg' style={{ width: "3.4cm"}}/>
                     <br/>
-                    <p className='text-muted' style={{fontSize:"4mm",marginTop:"3mm" ,marginLeft:"4mm"}}>&copy;2010 - 2026, Zerodha Broking Ltd.<br/>All rights reserved</p>
+                    <p className='text-muted' style={{fontSize:"4mm",marginTop:"3mm",marginLeft:"4mm"}}>
+                        &copy;2010 - 2026, Zerodha Broking Ltd.<br/>All rights reserved
+                    </p>
                     <i class="fa-brands fa-x-twitter"></i>
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-instagram"></i>
@@ -17,19 +19,20 @@ function Footer() {
                     <i class="fa-brands fa-whatsapp"></i>
                     <i class="fa-brands fa-telegram"></i>
                     <br/><br/>
+
                     <div className='row ms-auto'>
                         <div className='col-3'>
                             <img src='media/images/googlePlayBadge.svg' alt='play store' style={{height:"1cm",width:"3.5cm"}}/>
                         </div>
-                        
+
                         <div className='col-1'></div>
 
                         <div className='col-3'>
-                            <img src='media/images/appstoreBadge.svg' alt='play store' style={{height:"1cm" }}/>
+                            <img src='media/images/appstoreBadge.svg' alt='play store' style={{height:"1cm"}}/>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='col-2 footerLink'>
                     <h5 className='footerHead'>Account</h5>
                     <span>Open demat account</span>
@@ -107,14 +110,14 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='footerInfo'>       
+            <div className='footerInfo'>
                 <p>
                     Zerodha Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF
                 </p>
 
                 <p>
                     Procedure to file a complaint on
-                    <p style={{color:"#387ED1"}}> SEBI SCORES: </p>
+                    <span style={{color:"#387ED1"}}> SEBI SCORES: </span>
                     Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances
                 </p>
 
@@ -146,9 +149,9 @@ function Footer() {
                     Fixed deposit products offered on this platform are third-party products (TPP) and are not Exchange traded products. These are offered through Blostem Fintech Private Limited. Zerodha Broking Limited (SEBI Registration No.: INZ000031633) is acting solely as a distributor for these products. Any disputes arising with respect to such distribution activity will not have access to SEBI SCORES/ODR, Exchange Investor Grievance Redressal Forum, or Arbitration mechanism. Fixed deposits are regulated by the Reserve Bank of India (RBI).
                 </p>
 
-                <hr></hr>
+                <hr/>
 
-                <div className='row' style={{display:"inline", fontSize:"0.3cm", marginLeft:"6cm" }}>
+                <div className='row' style={{display:"inline", fontSize:"0.3cm", marginLeft:"6cm"}}>
                     <a href="https://www.nseindia.com">NSE</a>
                     <a href="https://www.bseindia.com">BSE</a>
                     <a href="https://www.mcxindia.com">MCX</a>
