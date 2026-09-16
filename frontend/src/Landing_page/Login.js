@@ -36,7 +36,7 @@ function Login() {
             const data = await response.json();
 
             if (data.success) {
-                     window.location.href = `http://localhost:3001?username=${encodeURIComponent(data.username)}`;
+                     window.location.href = `https://zerodha-b8i4.vercel.app?username=${encodeURIComponent(data.username)}`;
 
             } else {
                 setError(data.message);
