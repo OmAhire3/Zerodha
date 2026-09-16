@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return ( 
-        <div  className='border-top p-5'   style={{background:"#FBFBFB"}}>
+        <div className='border-top p-5' style={{background:"#FBFBFB"}}>
             <div className='row'>
                 <div className='col-4'>
                     <img className='fa-brands' src='media/images/logo.svg' style={{ width: "3.4cm",}}/>
@@ -22,9 +22,8 @@ function Footer() {
                             <img src='media/images/googlePlayBadge.svg' alt='play store' style={{height:"1cm",width:"3.5cm"}}/>
                         </div>
                         
-                        <div className='col-1'>
+                        <div className='col-1'></div>
 
-                        </div>
                         <div className='col-3'>
                             <img src='media/images/appstoreBadge.svg' alt='play store' style={{height:"1cm" }}/>
                         </div>
@@ -33,75 +32,78 @@ function Footer() {
                 
                 <div className='col-2 footerLink'>
                     <h5 className='footerHead'>Account</h5>
-                    <a >Open demat account</a>
+                    <span>Open demat account</span>
                     <br/>
-                    <a>Minor demat account</a>
-                     <br/>
-                    <a>NRI demat account</a>
-                     <br/>
-                    <a>HUF demat account</a>
-                     <br/>
-                    <a>Commodity</a>
-                     <br/>
-                    <a>Dematerialisation</a>
-                     <br/>
-                    <a>Fund transfer</a>
-                     <br/>
-                    <a>MTF</a>
+                    <span>Minor demat account</span>
+                    <br/>
+                    <span>NRI demat account</span>
+                    <br/>
+                    <span>HUF demat account</span>
+                    <br/>
+                    <span>Commodity</span>
+                    <br/>
+                    <span>Dematerialisation</span>
+                    <br/>
+                    <span>Fund transfer</span>
+                    <br/>
+                    <span>MTF</span>
                 </div>
+
                 <div className='col-2 footerLink'>
                     <h5 className='footerHead'>Support</h5>
-                    <a >Contact us</a>
+                    <span>Contact us</span>
                     <br/>
-                    <a>Support portal</a>
-                     <br/>
-                    <a>How to file a complaint?</a>
-                     <br/>
-                    <a>Status of your complaints</a>
-                     <br/>
-                    <a>Bulletin</a>
-                     <br/>
-                    <a>Circular</a>
-                     <br/>
-                    <a>Z-Connect blog</a>
-                     <br/>
-                    <a>Downloads</a>
+                    <span>Support portal</span>
+                    <br/>
+                    <span>How to file a complaint?</span>
+                    <br/>
+                    <span>Status of your complaints</span>
+                    <br/>
+                    <span>Bulletin</span>
+                    <br/>
+                    <span>Circular</span>
+                    <br/>
+                    <span>Z-Connect blog</span>
+                    <br/>
+                    <span>Downloads</span>
                 </div>
+
                 <div className='col-2 footerLink'>
                     <h5 className='footerHead'>Company</h5>
-                    <a >About</a>
+                    <span>About</span>
                     <br/>
-                    <a>Philosophy</a>
-                     <br/>
-                    <a>Press & media</a>
-                     <br/>
-                    <a>Careers</a>
-                     <br/>
-                    <a>Zerodha Cares (CSR)</a>
-                     <br/>
-                    <a>Zerodha.tech</a>
-                     <br/>
-                    <a>Open source</a>
-                     <br/>
-                    <a>Referral program</a>
+                    <span>Philosophy</span>
+                    <br/>
+                    <span>Press & media</span>
+                    <br/>
+                    <span>Careers</span>
+                    <br/>
+                    <span>Zerodha Cares (CSR)</span>
+                    <br/>
+                    <span>Zerodha.tech</span>
+                    <br/>
+                    <span>Open source</span>
+                    <br/>
+                    <span>Referral program</span>
                 </div>
+
                 <div className='col-2 footerLink'>
                     <h5 className='footerHead'>Quick links</h5>
-                    <a >Upcoming IPOs</a>
+                    <span>Upcoming IPOs</span>
                     <br/>
-                    <a>Brokerage charges</a>
-                     <br/>
-                    <a>Market holidays</a>
-                     <br/>
-                    <a>Economic calendar</a>
-                     <br/>
-                    <a>Calculators</a>
-                     <br/>
-                    <a>Markets</a>
-                     <br/>
-                    <a>Sectors</a>
-                     <br/>
-                    <a>Gift Nifty</a>
+                    <span>Brokerage charges</span>
+                    <br/>
+                    <span>Market holidays</span>
+                    <br/>
+                    <span>Economic calendar</span>
+                    <br/>
+                    <span>Calculators</span>
+                    <br/>
+                    <span>Markets</span>
+                    <br/>
+                    <span>Sectors</span>
+                    <br/>
+                    <span>Gift Nifty</span>
                 </div>
             </div>
 
@@ -111,48 +113,57 @@ function Footer() {
                 </p>
 
                 <p>
-                    Procedure to file a complaint on<p  style={{color:"#387ED1"}}> SEBI SCORES: </p>Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances
+                    Procedure to file a complaint on
+                    <p style={{color:"#387ED1"}}> SEBI SCORES: </p>
+                    Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances
                 </p>
 
-                <p  style={{color:"#387ED1"}}>
+                <p style={{color:"#387ED1"}}>
                     Smart Online Dispute Resolution | Grievances Redressal Mechanism
                 </p>
 
-                <p>Investments in securities market are subject to market risks; read all the related documents carefully before investing.
+                <p>
+                    Investments in securities market are subject to market risks; read all the related documents carefully before investing.
                 </p>
 
-                 <p>Attention investors: 1) Stock brokers can accept securities as margins from  clients only by way of pledge in the depository system w.e.f September 01, 2020.  2) Update your e-mail and phone number with your stock broker / depository  participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.
+                <p>
+                    Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.
+                </p>
 
-                 </p>
-                   <p style={{color:"#387ED1"}}>India's largest broker based on networth as per NSE. NSE broker factsheet</p>
-                   <p>
+                <p style={{color:"#387ED1"}}>
+                    India's largest broker based on networth as per NSE. NSE broker factsheet
+                </p>
+
+                <p>
                     "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers/depository participants. Receive information of your transactions directly from Exchange/Depositories on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.
-                   </p>
+                </p>
 
-                   <p>
+                <p>
                     *Customers availing insurance advisory services offered by Ditto (Tacterial Consulting Private Limited | IRDAI Registered Corporate Agent (Composite) License No CA0738) will not have access to the exchange investor grievance redressal forum, SEBI SCORES/ODR, or arbitration mechanism for such products.
-                   </p>
+                </p>
 
-                   <p>
+                <p>
                     Fixed deposit products offered on this platform are third-party products (TPP) and are not Exchange traded products. These are offered through Blostem Fintech Private Limited. Zerodha Broking Limited (SEBI Registration No.: INZ000031633) is acting solely as a distributor for these products. Any disputes arising with respect to such distribution activity will not have access to SEBI SCORES/ODR, Exchange Investor Grievance Redressal Forum, or Arbitration mechanism. Fixed deposits are regulated by the Reserve Bank of India (RBI).
-                   </p>
-                   <hr></hr>
-                   <div className='row' style={{display:"inline", fontSize:"0.3cm", marginLeft:"6cm" }}>
-                        <a href="https://www.nseindia.com">NSE</a>
-                        <a href="https://www.bseindia.com">BSE</a>
-                        <a href="https://www.mcxindia.com">MCX</a>
-                        <a href="https://www.msei.in">MSEI</a>
-                        <a href="/terms">Terms & conditions</a>
-                        <a href="/policies">Policies & procedures</a>
-                        <a href="/privacy">Privacy policy</a>
-                        <a href="/disclosure">Disclosure</a>
-                        <a href="/investor-attention">For investor's attention</a>
-                        <a href="/investor-charter">Investor charter</a>
-                        <a href="/sitemap">Sitemap</a>
-                    </div>
+                </p>
+
+                <hr></hr>
+
+                <div className='row' style={{display:"inline", fontSize:"0.3cm", marginLeft:"6cm" }}>
+                    <a href="https://www.nseindia.com">NSE</a>
+                    <a href="https://www.bseindia.com">BSE</a>
+                    <a href="https://www.mcxindia.com">MCX</a>
+                    <a href="https://www.msei.in">MSEI</a>
+                    <a href="/terms">Terms & conditions</a>
+                    <a href="/policies">Policies & procedures</a>
+                    <a href="/privacy">Privacy policy</a>
+                    <a href="/disclosure">Disclosure</a>
+                    <a href="/investor-attention">For investor's attention</a>
+                    <a href="/investor-charter">Investor charter</a>
+                    <a href="/sitemap">Sitemap</a>
+                </div>
             </div>
         </div>
-     );
+    );
 }
 
 export default Footer;
