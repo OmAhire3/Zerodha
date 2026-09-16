@@ -1,18 +1,34 @@
 import React from 'react';
+
 function Awards() {
-    return ( 
-        <div className='container  p-5'>
-            <div className='row'>
-                <div className='col-6 p-5'>
-                    <img src='media/images/largestBroker.svg' alt="Awards"/>
+    return (
+        <div className='container p-3 p-md-5'>
+            <div className='row align-items-center'>
+                
+                {/* Image */}
+                <div className='col-12 col-md-6 p-3 p-md-5 text-center'>
+                    <img
+                        src='media/images/largestBroker.svg'
+                        alt='Awards'
+                        style={{
+                            width: '100%',
+                            maxWidth: '500px',
+                            height: 'auto'
+                        }}
+                    />
                 </div>
-                <div className='col-6 p-5 mt-2'>
+
+                {/* Content */}
+                <div className='col-12 col-md-6 p-3 p-md-5 mt-2'>
                     <h3>Larget stock broker in India</h3>
-                    <br/>
-                    <p>2+ million Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
-                    <br/>
-                    <div className='row'>
-                        <div className='col-6'>
+
+                    <p className='mt-4'>
+                        2+ million Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:
+                    </p>
+
+                    {/* Lists */}
+                    <div className='row mt-3'>
+                        <div className='col-12 col-sm-6'>
                             <ul>
                                 <li>
                                     <p>Futures and Options</p>
@@ -22,11 +38,12 @@ function Awards() {
                                 </li>
                                 <li>
                                     <p>Currency derivatives</p>
-                                </li>      
+                                </li>
                             </ul>
                         </div>
-                        <div className='col-6'>
-                              <ul>
+
+                        <div className='col-12 col-sm-6'>
+                            <ul>
                                 <li>
                                     <p>Stocks & IPOs</p>
                                 </li>
@@ -35,15 +52,27 @@ function Awards() {
                                 </li>
                                 <li>
                                     <p>Bonds and Government Securities</p>
-                                </li>      
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <img src='media\images\pressLogos.png' alt="Awards" style={{width:"13cm"}}/>
+
+                    {/* Press Logos */}
+                    <div className='mt-4'>
+                        <img
+                            src='media/images/pressLogos.png'
+                            alt='Press Logos'
+                            style={{
+                                width: '100%',
+                                maxWidth: '500px',
+                                height: 'auto'
+                            }}
+                        />
+                    </div>
                 </div>
-            </div>    
+            </div>
         </div>
-     );
+    );
 }
 
 export default Awards;
