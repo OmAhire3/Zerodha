@@ -26,7 +26,7 @@ function Hero() {
             password
         };
 
-        const response = await fetch("http://localhost:3002/signUp", {
+        const response = await fetch("https://zerodha-vk1n.onrender.com/signUp", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
